@@ -32,7 +32,27 @@
 - Soporte nativo con los navegadores web y no se necesita de ningun plugin para su funcionamiento.
 - Las aplicaciones wasm se ejecutan en un etorno seguro como javascript.
 - El codigo de javascript puede ejecutar los modulos de wasm.
-- 
+
+### WebAssembly es rapido
+- WebAssembly es rapido puede ejecutar codigo mas rapido que javascript en la mayoria de los casos.
+- WebAssembly ocila entre 6 a 20 veces en velocidad a Javascript no en todo los casos.
+- Javascript puede ser muy rapido y tiene otros beneficios 
+- Produce aplicaciones mas rapidas en general ṕorque el codigo de WebAssembly esta optimizado.
+- Los archivos de WebAssembly son mas pequeños que los archivos javascript incluso mas pequeños que los archivos minificados de javascript. Esto es importante en la web porque los archivos tienen que descargarse al cliente.
+
+### Compilar a WebAssembly con otros lenguajes de programación
+- Hay una gran ventaja de que WebAssembly se puede ejecutar en el navegador ya que los navegadores se pueden ejectuar en cualquier plataforma y en cualquier dispositivo.
+- No es necesario instalar un rutine en los navegadores para ejecutar WebAssembly.
+- Habia un incoveniente de que solo se puede hacer aplicaciones con Javascript porque solo lo que sabian javascript podian hacer aplicaciones.
+- Ahora con WebAssembly se puede utilizar otros lenguajes de programación como C/C++, Rust, Java, C#, etc.
+- Un gran ventaja porque ahora hay mas desarrolladores para crear aplicaciones web. Esto es una revolucion para la werb.
+
+### WebAssembly es parte del Navegador
+- JavaScriot estaba limitado para editar Audio y Video o crear o ejecutar video juegos.
+- Estas funcionalidades de editar Audio y Video, Juegos se podian implementar con plugins como Flash o Silverlight.
+- El problema de utilizar plugins era que se tenia que actualizar la versiones de los plugins por problema de seguridad y esto hacia que los usuarios puedan problemas.
+- La ventaja de WebAssenbly es que no se necesita instalar ningun plugins al navegador y se puede crear aplicaciones que antes con javascript no se podia como editar audio y video, crear video juegos y esta aplicaciones se podran en todos los navegadores y dispositivos que tengan el soporte de WebAssembly.
+
 ## Casos de uso de WebAssembly
 - Para reautilizar cosas echas en C:
     - tesseract ocr
@@ -49,15 +69,15 @@
 - Inteligencia Artificial 
 - [https://dev.to/yashints/tensorflow-js-available-on-webassembly-backend-53e4](https://dev.to/yashints/tensorflow-js-available-on-webassembly-backend-53e4)
 
-
 ## Seguridad de WebAssembly
 - WebAssembly se ejecuta en un entorno encapsulado
 - Se ejecuta con estrictas normas de ejecución
 - Se protege al usuario de codigo malisioso
 
 ## Herramientas
-- [https://webassembly.studio/](https://webassembly.studio/)
+- [https://webassembly.studio/](https://webassembly.studio/): Entorno de desarrollo online que permite crear aplicaciones con WebAssembly.
 - [https://wasdk.github.io/wasmcodeexplorer/](https://wasdk.github.io/wasmcodeexplorer/)
+- [https://github.com/dotnet/blazor](https://github.com/dotnet/blazor): Ejecutar C# en el navegador con WebAssembly
 
 ## Soporte navegadores
 - [https://caniuse.com/#feat=wasm](https://caniuse.com/#feat=wasm)
@@ -80,24 +100,22 @@
 ![modules](images/image7.png)
 
 ### JavaScript trabaja con WebAssembly
-
+- WebAssembly no es un remplazo es un complemento para JavaScript.
+. WebAssembly no solo esta en el cliente puede estar en el servidor con Nodejs
 ![javascript-wasm](images/image8.png)
 
 ## Ejemplos
 - Adobe PhotoShop
-- Unity
 - Autodesk Autocad
 - Google con Google Earth
 - web-dsp
-- Figma
+- [Figma](https://www.figma.com/blog/
 - [Funkykarts](https://www.funkykarts.rocks/demo.html)
 
 ## Recursos
-- [https://webassembly.org/](https://webassembly.org/)
-- [https://developer.mozilla.org/en-US/docs/WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly)
-- [https://codelabs.developers.google.com/codelabs/web-assembly-intro/index.html#0](https://codelabs.developers.google.com/codelabs/web-assembly-intro/index.html#0)
-- [https://dev.to/yashints/tensorflow-js-available-on-webassembly-backend-53e4](https://dev.to/yashints/tensorflow-js-available-on-webassembly-backend-53e4)
-- [https://caniuse.com/#feat=wasm](https://caniuse.com/#feat=wasm)
-- [https://www.figma.com/blog/webassembly-cut-figmas-load-time-by-3x/](https://www.figma.com/blog/webassembly-cut-figmas-load-time-by-3x/)
-- [https://github.com/appcypher/awesome-wasm-langs](https://github.com/appcypher/awesome-wasm-langs)
-- [https://www.youtube.com/watch?v=VS4uhnKd67Y](https://www.youtube.com/watch?v=VS4uhnKd67Y)
+- [https://webassembly.org/](https://webassembly.org/): El recurso Oficial de WebAssembly
+- [https://developer.mozilla.org/en-US/docs/WebAssembly](https://developer.mozilla.org/en-US/docs/WebAssembly): La documentacion de Mozilla para desarrolladores donde te muestra como comenzar.
+- [http://wasmrocks.com/](http://wasmrocks.com/): Tutoriales y articulos utiles de WebAssembly.
+- [https://codelabs.developers.google.com/codelabs/web-assembly-intro/index.html#0](https://codelabs.developers.google.com/codelabs/web-assembly-intro/index.html#0): Un codelab de WebAssembly con C.
+- [https://github.com/appcypher/awesome-wasm-langs](https://github.com/appcypher/awesome-wasm-langs): Implementación de WebAssembly en los diferentes lenguajes.
+- [https://www.youtube.com/watch?v=VS4uhnKd67Y](https://www.youtube.com/watch?v=VS4uhnKd67Y): Video tutorial muy bueno de WebAssembly
